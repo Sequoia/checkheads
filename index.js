@@ -7,7 +7,7 @@ function getHead(url, done){
       try{ //the "error" might be http 301 or something
         done(null, err.response.statusCode);
       }catch(e){
-        done(e);
+        done(err);
       }
       return;
     }

@@ -8,7 +8,7 @@ var log = {
   '5' : chalk.bold.underline.red
 };
 
-var urls = ['https://www.google.com','http://facebook.com'];
+var urls = ['https://www.google.com','http://facebook.com', 'http://httpstat.us/501', 'http://httpstat.us/403'];
 
 getcodes(urls,function(err, codes){
   if(err){
