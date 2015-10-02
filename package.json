@@ -1,0 +1,16 @@
+{
+  "name": "checkHeaders",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sequoia McDowell <sequoia.mcdowell@gmail.com> (http://sequoia.makes.software/)",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "chalk": "^1.1.1",
+    "superagent": "^1.4.0"
+  }
+}
